@@ -1,0 +1,35 @@
+{
+  "name": "graphqlcrm",
+  "version": "1.0.0",
+  "description": "proyecto node y graphql para un crm de productos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsotoca/graphqlCRM.git"
+  },
+  "keywords": [
+    "graphql",
+    "nodejs",
+    "mongoose"
+  ],
+  "author": "juan antonio soto cabrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsotoca/graphqlCRM/issues"
+  },
+  "homepage": "https://github.com/jsotoca/graphqlCRM#readme",
+  "dependencies": {
+    "apollo-server": "^2.13.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
